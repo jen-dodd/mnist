@@ -31,3 +31,8 @@ Instructions
 * This code was written using Python 3.9 and some standard libraries such as numpy; no machine learning specific libraries such as PyTorch were used.
 * Due to the file-size limits of github I've only included small versions of the training and testing data, which should work for trying out the code. If you want to run the code with the full dataset, download the CSV files linked above and change the TRAINING_DATA_LOC and TESTING_DATA_LOC variables to the correct file names.
 * To try out different versions of the experiment change the hyperparameters (LEARNING_RATE, NUM_EPOCHS, NUM_HIDDEN) in main.py. They are currently set to some generic values that run quickly for testing.
+
+```
+pip install numpy
+python3 src/main.py
+```
