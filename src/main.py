@@ -18,8 +18,8 @@ from mnist_experiment.experiment import Experiment
 from mnist_experiment.neural_network import NeuralNetwork
 
 # Where to find the data for training and testing.
-TRAINING_DATA_LOC = "../data/mnist_train.csv"
-TESTING_DATA_LOC = "../data/mnist_test.csv"
+TRAINING_DATA_LOC = "../data/mnist_train_small.csv"
+TESTING_DATA_LOC = "../data/mnist_test_small.csv"
 
 # The number of nodes in the hidden layer for this three-layer network.
 NUM_HIDDEN = 100
